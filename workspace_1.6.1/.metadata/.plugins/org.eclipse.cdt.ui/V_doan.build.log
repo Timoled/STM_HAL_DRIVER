@@ -1,0 +1,27 @@
+18:11:56 **** Incremental Build of configuration Debug for project V_doan ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -std=gnu11 -g -c -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" -std=gnu11 -g -c -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o"
+Error: Cannot find the specified linker script. Check the linker settings in the build configuration.
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" -std=gnu11 -g -c -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+make: *** [makefile:93: fail-specified-linker-script-missing] Error 2
+make: *** Waiting for unfinished jobs....
+../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c:39:10: fatal error: stm32f1xx_hal.h: No such file or directory
+   39 | #include "stm32f1xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:71: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.o] Error 1
+../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c:325:10: fatal error: stm32f1xx_hal.h: No such file or directory
+  325 | #include "stm32f1xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:69: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.o] Error 1
+../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:36:10: fatal error: stm32f1xx_hal.h: No such file or directory
+   36 | #include "stm32f1xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:67: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+18:11:57 Build Failed. 9 errors, 0 warnings. (took 1s.113ms)
+

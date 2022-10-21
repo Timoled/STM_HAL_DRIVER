@@ -1,0 +1,10 @@
+19:34:00 **** Incremental Build of configuration Debug for project test_duthu ****
+make -j4 all 
+arm-none-eabi-size   test_duthu.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30116	    484	   1876	  32476	   7edc	test_duthu.elf
+Finished building: default.size.stdout
+ 
+
+19:34:00 Build Finished. 0 errors, 0 warnings. (took 633ms)
+

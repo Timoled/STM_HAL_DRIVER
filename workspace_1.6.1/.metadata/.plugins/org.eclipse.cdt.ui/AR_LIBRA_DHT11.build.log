@@ -1,0 +1,10 @@
+19:33:41 **** Incremental Build of configuration Debug for project AR_LIBRA_DHT11 ****
+make -j4 all 
+arm-none-eabi-size   AR_LIBRA_DHT11.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5988	     20	   1596	   7604	   1db4	AR_LIBRA_DHT11.elf
+Finished building: default.size.stdout
+ 
+
+19:33:42 Build Finished. 0 errors, 0 warnings. (took 765ms)
+

@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"ctr_nrf_recv\stm32f1xx_hal_gpio.o"
+"ctr_nrf_recv\stm32f1xx_hal_dma.o"
+"ctr_nrf_recv\stm32f1xx_hal_cortex.o"
+"ctr_nrf_recv\stm32f1xx_hal_pwr.o"
+"ctr_nrf_recv\stm32f1xx_hal_tim_ex.o"
+"ctr_nrf_recv\stm32f1xx_hal_flash.o"
+"ctr_nrf_recv\stm32f1xx_hal_tim.o"
+"ctr_nrf_recv\stm32f1xx_hal_gpio_ex.o"
+"ctr_nrf_recv\stm32f1xx_hal_uart.o"
+"ctr_nrf_recv\stm32f1xx_hal_flash_ex.o"
+"ctr_nrf_recv\stm32f1xx_hal_rcc_ex.o"
+"ctr_nrf_recv\stm32f1xx_hal_rcc.o"
+"ctr_nrf_recv\stm32f1xx_hal.o"
+"ctr_nrf_recv\system_stm32f1xx.o"
+"ctr_nrf_recv\startup_stm32f103xb.o"
+"ctr_nrf_recv\main.o"
+"ctr_nrf_recv\stm32f1xx_hal_msp.o"
+"ctr_nrf_recv\stm32f1xx_it.o"
+"ctr_nrf_recv\ctr_nrf24l01.o"
+--library_type=microlib --strict --scatter "CTR_NRF_RECV\CTR_NRF_RECV.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CTR_NRF_RECV.map" -o CTR_NRF_RECV\CTR_NRF_RECV.axf

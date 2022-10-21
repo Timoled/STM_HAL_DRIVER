@@ -1,0 +1,10 @@
+19:33:52 **** Incremental Build of configuration Debug for project SPI2_uart_adc_dht ****
+make -j4 all 
+arm-none-eabi-size   SPI2_uart_adc_dht.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10100	     20	   1772	  11892	   2e74	SPI2_uart_adc_dht.elf
+Finished building: default.size.stdout
+ 
+
+19:33:53 Build Finished. 0 errors, 0 warnings. (took 656ms)
+

@@ -1,0 +1,10 @@
+main.c:59:1:__io_putchar	16	static
+main.c:101:6:XulyJson	16	static
+main.c:143:6:senddata	32	static
+main.c:191:6:HAL_UART_RxCpltCallback	24	static
+main.c:216:5:main	8	static
+main.c:264:6:SystemClock_Config	88	static
+main.c:310:13:MX_ADC1_Init	24	static
+main.c:355:13:MX_USART2_UART_Init	8	static
+main.c:388:13:MX_GPIO_Init	40	static
+main.c:417:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,10 @@
+10:35:59 **** Incremental Build of configuration Debug for project DO_AN_CHUYEN_NGANH ****
+make -j4 all 
+arm-none-eabi-size   DO_AN_CHUYEN_NGANH.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11072	     20	   1652	  12744	   31c8	DO_AN_CHUYEN_NGANH.elf
+Finished building: default.size.stdout
+ 
+
+10:35:59 Build Finished. 0 errors, 0 warnings. (took 711ms)
+

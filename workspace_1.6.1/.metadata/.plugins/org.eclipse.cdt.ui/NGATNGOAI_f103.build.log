@@ -1,0 +1,10 @@
+19:33:49 **** Incremental Build of configuration Debug for project NGATNGOAI_f103 ****
+make -j4 all 
+arm-none-eabi-size   NGATNGOAI_f103.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6652	     20	   1572	   8244	   2034	NGATNGOAI_f103.elf
+Finished building: default.size.stdout
+ 
+
+19:33:49 Build Finished. 0 errors, 0 warnings. (took 621ms)
+

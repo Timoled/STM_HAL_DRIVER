@@ -1,0 +1,10 @@
+16:17:23 **** Incremental Build of configuration Debug for project F411_VDK ****
+make -j4 all 
+arm-none-eabi-size   F411_VDK.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15696	     20	   1948	  17664	   4500	F411_VDK.elf
+Finished building: default.size.stdout
+ 
+
+16:17:24 Build Finished. 0 errors, 0 warnings. (took 983ms)
+

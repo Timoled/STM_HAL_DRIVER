@@ -1,0 +1,10 @@
+16:58:52 **** Incremental Build of configuration Debug for project uartx ****
+make -j4 all 
+arm-none-eabi-size   uartx.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10828	     24	   1648	  12500	   30d4	uartx.elf
+Finished building: default.size.stdout
+ 
+
+16:58:53 Build Finished. 0 errors, 0 warnings. (took 679ms)
+

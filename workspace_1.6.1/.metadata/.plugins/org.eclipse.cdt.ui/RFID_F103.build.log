@@ -1,0 +1,11 @@
+10:16:57 **** Incremental Build of configuration Debug for project RFID_F103 ****
+make -j4 all 
+arm-none-eabi-gcc -o "RFID_F103.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\STM32\workspace_1.6.1\RFID_F103\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RFID_F103.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+e:\phan_mem\stm32cubeide_1.6.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924\tools\arm-none-eabi\bin\ld.exe: Core/Src/rc522.o: in function `SPI1SendByte':
+E:/STM32/workspace_1.6.1/RFID_F103/Debug/../Core/Src/rc522.c:53: undefined reference to `hspi1'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:65: RFID_F103.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+10:17:00 Build Failed. 3 errors, 0 warnings. (took 2s.669ms)
+

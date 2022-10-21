@@ -1,0 +1,10 @@
+19:34:01 **** Incremental Build of configuration Debug for project uart_DHT11_RFID ****
+make -j4 all 
+arm-none-eabi-size   uart_DHT11_RFID.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39356	    488	   1976	  41820	   a35c	uart_DHT11_RFID.elf
+Finished building: default.size.stdout
+ 
+
+19:34:01 Build Finished. 0 errors, 0 warnings. (took 633ms)
+

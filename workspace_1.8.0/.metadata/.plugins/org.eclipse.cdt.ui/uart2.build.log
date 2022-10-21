@@ -1,0 +1,10 @@
+16:20:38 **** Incremental Build of configuration Debug for project uart2 ****
+make -j4 all 
+arm-none-eabi-size   uart2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10984	     24	   1688	  12696	   3198	uart2.elf
+Finished building: default.size.stdout
+ 
+
+16:20:39 Build Finished. 0 errors, 0 warnings. (took 908ms)
+
